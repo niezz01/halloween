@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/the-halloween');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+.cim{
+    height: 400px;
+    width: 400px;
+
+
+}
+body {
+    background-color: black;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    min-height:100vh ;
+
+}
+
+nav{
+    position: relative;
+    width: 500px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    position: relative; 
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+
+}
+
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg, #4f1919, #ff3333);
+    border-radius: 8px;
+    transition: .5s;
+
+
+}
+nav a:nth-child(1):hover~span
+{
+    left:0;
+}
+nav a:nth-child(2):hover~span
+{
+    left:20%;
+}
+nav a:nth-child(3):hover~span
+{
+    left:40%;
+    width: 110px;
+}
+nav a:nth-child(4):hover~span
+{
+   left: 60%;
+   width: 115px;
+}
+
+nav a:nth-child(5):hover~span
+{
+   left: 80%;
+   width: 110px;
+}
+
+
+
+
+
+
+
+h1{
+    font-family: 'The Halloween', sans-serif;
+    text-align: center;
+    color: hsla(0, 94%, 48%, 0.879) ;
+}
+
